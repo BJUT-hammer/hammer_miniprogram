@@ -1,1 +1,38 @@
 /* pages/login/login.wxss */
+
+.section-form {
+    line-height: 1.41176471;
+    font-size: 17px;
+    overflow: hidden;
+    position: relative;
+}
+
+.form-desc {
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    font-size: 17px;
+}
+
+.form-data {
+    margin-left: 60rpx;
+    margin-right: 60rpx;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+    /* text-align: center; */
+    margin-bottom: 80rpx;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: #04be02;
+}
+
+.button {
+    margin-top: 50rpx;
+    margin-bottom: 30rpx;
+}
+
+.button-sp-area {
+    margin: 0 auto;
+    width: 60%;
+}

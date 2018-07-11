@@ -1,2 +1,19 @@
 <!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+<view class="section-form">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+
+            <view class="form-desc">学号</view>
+            <input name="id" placeholder="请输入学号" type="digit" class="form-data" />
+
+            <view class="form-desc">教务系统密码</view>
+            <input name="pwd1" placeholder="输入教务密码(gdjwgl.bjut.edu.cn)" password='true' class="form-data" />
+
+
+            <view class="form-desc">信息门户密码</view>
+            <input name="pwd2" placeholder="输入信息门户密码(my1.bjut.edu.cn)" password='true' class="form-data" />
+
+    </form>
+</view>
+<view class="button-sp-area">
+    <button type="primary" class="button">登录</button>
+</view>
