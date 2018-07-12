@@ -1,1 +1,16 @@
 /* pages/aboutus/aboutus.wxss */
+.img{
+  display: flex;
+  flex-direction: row;
+  margin-top: 300rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.name{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
