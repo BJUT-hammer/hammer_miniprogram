@@ -1,2 +1,6 @@
 <!--pages/library/library.wxml-->
 <text>pages/library/library.wxml</text>
+<form bindsubmit="submit" report-submit='true'>
+  <button form-type="submit" type="default" size="mini">提交</button>
+  <view>{{ msg }}</view>
+</form>
