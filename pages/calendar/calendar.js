@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    calendarsrc:'https://hammer.devchen.cn/statics/xl.jpg'
+      calendarsrc:'/img/calendar.png'
   },
 
   /**
