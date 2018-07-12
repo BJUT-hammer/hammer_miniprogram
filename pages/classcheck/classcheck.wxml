@@ -1,2 +1,34 @@
-<!--pages/classcheck/classcheck.wxml-->
-<text>pages/classcheck/classcheck.wxml</text>
+<view class="section">
+  <view class="section__title">校区</view>
+  <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}" class="pickertype">
+    <view class="picker">
+      {{array1[index1]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">筛选教室</view>
+   <input name="checkclass" placeholder="请输入关键字" class="form-data" />
+</view>
+
+<view class="section">
+  <view class="section__title">日期</view>
+  <picker mode="date" value="{{date}}" start="2018-07-01" end="2018-08-01" bindchange="bindDateChange" class="pickertype">
+    <view class="picker">
+    {{date}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <view class="section__title">时间</view>
+  <picker bindchange="bindPickerChange3" value="{{index2}}" range="{{array2}}" class="pickertype">
+    <view class="picker">
+      {{array2[index2]}}
+    </view>
+  </picker>
+</view>
+
+<view class="button-sp-area">
+    <button type="primary" class="button" bindtap="clicklogin">查询</button>
+</view>
