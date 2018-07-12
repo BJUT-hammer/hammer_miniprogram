@@ -5,22 +5,22 @@
  
 <!-- 9个按钮  -->
 <view class='class_view_panel'>
-  <navigator class="class_nav">
+  <navigator class="class_nav" bindtap='clickgrade'>
     <image src='/img/grade.png'></image>
     <text>分数查询</text>
   </navigator>
  
-  <navigator class="class_nav">
+  <navigator class="class_nav" bindtap='clickschedule'>
     <image src='/img/schedule.png'></image>
     <text>课表查询</text>
   </navigator>
  
-  <navigator class="class_nav">
+  <navigator class="class_nav" bindtap='clickclass'>
     <image src='/img/class.png'></image>
     <text>空教室查询</text>
   </navigator>
  
-  <navigator class="class_nav">
+  <navigator class="class_nav" bindtap='clicklibaray'>
     <image src='/img/library.png'></image>
     <text>借书信息</text>
   </navigator>
@@ -29,23 +29,23 @@
     <image src='/img/logo.png' style='height:180rpx;width:180rpx'></image>
   </navigator>
  
-  <navigator class="class_nav">
+  <navigator class="class_nav" bindtap='clickcalendar'>
     <image src='/img/calendar.png'></image>
     <text>校历查询</text>
   </navigator>
  
   <navigator class="class_nav">
-    <image src='/img/notification.png'></image>
+    <image src='/img/notification.png' bindtap='clicknotifi'></image>
     <text>通知查看</text>
   </navigator>
  
   <navigator class="class_nav">
-    <image src='/img/subscription.png'></image>
+    <image src='/img/subscription.png' bindtap='clicksubscr'></image>
     <text>通知订阅</text>
   </navigator>
  
   <navigator class="class_nav">
-    <image src='/img/account.png'></image>
+    <image src='/img/account.png' bindtap='clickaccount'></image>
     <text>账号管理</text>
   </navigator>
  
