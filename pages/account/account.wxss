@@ -1,1 +1,4 @@
 /* pages/account/account.wxss */
+button {
+  margin-top: 20px;
+}

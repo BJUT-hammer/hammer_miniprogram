@@ -1,5 +1,5 @@
 <!--pages/主界面/mainpage.wxml-->
-<view class='class_view_carousel'>
+<view class='class_view_carousel' bindtap='clicklogin'>
     <!-- <image src='/img/menma.jpg'></image> -->
 </view>
  

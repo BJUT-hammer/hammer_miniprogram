@@ -1,0 +1,5 @@
+<!--pages/account/pwdchge.wxml-->
+<text>\n学号：\n150710\n\n</text>
+<text>新密码： </text>
+<input style='border:1px black solid' placeholder="输入教务系统密码" focus password='true'/>
+<button bindtap="updateJWpwd" name="cfmpwd">确认</button>

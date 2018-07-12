@@ -1,2 +1,5 @@
 <!--pages/account/account.wxml-->
-<text>pages/account/account.wxml</text>
+<text>\n姓名：cuizhen{{lgname}}\n</text>
+<text>\n学号：150710{{lgname}}\n</text>
+<button bindtap="cgJWpwd">\n修改教务系统密码\n</button>
+<button bindtap="cgMHpwd">\n修改信息门户密码\n</button>
