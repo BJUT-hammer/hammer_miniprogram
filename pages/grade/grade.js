@@ -1,72 +1,11 @@
 // pages/grade/grade.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-    account:id,
-    password:psw1
+    account1: "",
+    password1: "",
+    src1: "https://chafen.bjut123.com/require_grade.php?account=",
+    src2: "&password=",
+    src3: "&current_year=2017-2018&current_term=2",
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    if(option.account){
-      this.setData({
-        account: id,
-        password: psw1
-      })
-    }
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  }
 })

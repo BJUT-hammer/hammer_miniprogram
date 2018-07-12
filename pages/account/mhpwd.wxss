@@ -1,0 +1,4 @@
+/* pages/account/mhpwd.wxss */
+button {
+  margin-top: 20px;
+}

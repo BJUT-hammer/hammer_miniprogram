@@ -1,11 +1,25 @@
-// pages/clendar/clendar.js
+// pages/account/jwpwd.js
 Page({
+  
+  updateJWpwd: function (e) {
+    wx.request({
+      url: '',
+      method: 'POST',
+      header: {
+        'content-type': 'application/x-www-form-urlencoded'
+      },
+      data: {
+        JWpwd: e.detail.value.cfmpwd,
+      }
+    })
+
+  },
 
   /**
    * 页面的初始数据
    */
   data: {
-    calendarsrc:'https://hammer.devchen.cn/statics/xl.jpg'
+  
   },
 
   /**

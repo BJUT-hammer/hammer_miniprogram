@@ -9,6 +9,12 @@ Page({
     password1:2222,
     password2:3333
   },
+  
+  clicklogin: function (e) {
+    wx.navigateTo({
+      url: "../../pages/login/login"
+    })
+  },
 
   clickgrade: function (e) {
     wx.navigateTo({
