@@ -15,5 +15,5 @@
     </form>
 </view>
 <view class="button-sp-area">
-    <button type="primary" class="button">登录</button>
+    <button type="primary" class="button" bindtap="clicklogin">登录</button>
 </view>

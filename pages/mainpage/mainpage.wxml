@@ -1,6 +1,6 @@
 <!--pages/主界面/mainpage.wxml-->
 <view class='class_view_carousel'>
-    <image src='/img/menma.jpg'></image>
+    <!-- <image src='/img/menma.jpg'></image> -->
 </view>
  
 <!-- 9个按钮  -->

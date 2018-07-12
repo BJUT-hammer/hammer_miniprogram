@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    account:15071023,
+    password1:2222,
+    password2:3333
   },
 
   clickgrade: function (e) {

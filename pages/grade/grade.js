@@ -5,14 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    account:id,
+    password:psw1
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    if(option.account){
+      this.setData({
+        account: options.account,
+        password: options.password
+      })
+    }
   },
 
   /**
