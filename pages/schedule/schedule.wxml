@@ -1,2 +1,31 @@
-<!--pages/schedule/schedule.wxml-->
-<text>pages/schedule/schedule.wxml</text>
+<!--  科室排班表 -->
+
+<scroll-view scroll-x="true" class='scrollClass'>
+  <view class='table'>
+    <view class='table_header'>
+      <view class="th" style='width:130rpx;background-color:white'>
+        <view class='centerclass cell_label'>课程</view>
+      </view>
+      <block wx:for="{{dateArray}}">
+        <view class='th'>
+          <view class="cell_label centerclass">{{item.weekName}}</view>
+        </view>
+      </block>
+    </view>
+
+
+
+    <block wx:for="{{classArray}}">
+      <view class='table_main'>
+        <!--上午下午晚上  -->
+        <view class='td' style='width:130rpx;background-color:white;'>
+          <view class="cell_label centerclass">{{item.time_title}}</view>
+        </view>
+
+        
+
+
+      </view>
+    </block>
+  </view>
+</scroll-view>

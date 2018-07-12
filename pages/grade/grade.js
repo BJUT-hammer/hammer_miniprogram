@@ -15,8 +15,8 @@ Page({
   onLoad: function (options) {
     if(option.account){
       this.setData({
-        account: options.account,
-        password: options.password
+        account: id,
+        password: psw1
       })
     }
   },
