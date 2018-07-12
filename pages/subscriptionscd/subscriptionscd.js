@@ -12,6 +12,12 @@ Page({
     ]
   },
 
+  clickbutton: function(){
+    wx.navigateTo({
+      url: "../../pages/subscription/subscription"
+    })
+  },
+
   clickdelete: function(){
     let that = this;
     console.log(e);
@@ -58,8 +64,10 @@ Page({
     })
   },
 
+  
   onLoad: function () {
     console.log('onLoad')
+
   },
 
   /**

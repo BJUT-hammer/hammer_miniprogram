@@ -43,7 +43,7 @@ Page({
   },
   clicksubscr: function (e) {
     wx.navigateTo({
-      url: "../../pages/subscription/subscription"
+      url: "../../pages/subscriptionscd/subscriptionscd"
     })
   },
   clickaccount: function (e) {
