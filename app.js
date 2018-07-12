@@ -15,7 +15,7 @@ App({
         if (res.code) {
           //发起网络请求
           wx.request({
-            url: 'https://test.com/onLogin',
+            // url: 'https://test.com/onLogin',
             data: {
               code: res.code
             }

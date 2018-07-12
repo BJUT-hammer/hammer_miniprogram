@@ -1,2 +1,28 @@
-<!--pages/subscription/subscription.wxml-->
-<text>pages/subscription/subscription.wxml</text>
+<view class="section">
+  <view class="section__title">通知类型</view>
+  <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}" class="pickertype">
+    <view class="picker">
+      {{array1[index1]}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <view class="section__title">发布单位</view>
+  <picker bindchange="bindPickerChange3" value="{{index2}}" range="{{array2}}" class="pickertype">
+    <view class="picker">
+      {{array2[index2]}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <view class="section__title">关键字检索</view>
+   <input name="checkclass" placeholder="请输入关键字" class="form-data" />
+</view>
+
+
+
+<view class="button-sp-area">
+    <button type="primary" class="button" bindtap="clicklogin">添加</button>
+</view>
