@@ -1,0 +1,31 @@
+<!--pages/library/library.wxml-->
+<view class='container'>
+  <!-- 订单列表 -->
+  <block wx:for-items="{{carInfoData}}">
+     <form bindsubmit="saveFormId" report-submit="{{true}}" class='form_class'> 
+    <!-- <form id="library_form" name="library_form" method="post" style='display:node'> -->
+        <view class='card  b-shadow' id="{{item.id}}">
+          <view class='nearCard-fr'>
+            <view class='c-green'>题目：
+              <text class='c-green'>{{item.Title}}</text>
+            </view>
+            <view class='c-green'>时间：
+              <text class='c-green'>{{item.Author}}</text>
+            </view>
+            <view class='c-green'>发布单位：
+              <text class='c-green'>{{item.Borrow}}</text>
+            </view>
+            <view class='c-green'>内容：
+              <text class='c-green'>{{item.Limit}}</text>
+            </view>
+            <view> 
+              <!-- <button formType="submit" class='form_button'  style='height:10rpx;width:10rpx'> -->
+              <!-- <switch id='id{{item.id}}' class="wx-switch-input" checked="{{item.Remind}}" bindchange="switchchange" /> -->
+              <button bindtap="BookRemind" class= "buttonstyle">查看详情</button>
+              <!-- </button> -->
+            </view>
+          </view>
+        </view>
+    </form>
+  </block>
+</view>

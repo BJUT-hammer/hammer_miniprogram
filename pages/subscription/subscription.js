@@ -113,6 +113,12 @@ Page({
       // }
     ]
   },
+
+  clickadd: function (e) {
+    wx.navigateTo({
+      url: "../../pages/subscriptionscd/subscriptionscd"
+    })
+  },
   bindPickerChange1: function (e) {
     console.log('picker发送选择改变，携带值为', e.detail.value)
     this.setData({

@@ -1,6 +1,8 @@
 <!--pages/主界面/mainpage.wxml-->
 <view class='class_view_carousel'>
-    <!-- <image src='/img/menma.jpg'></image> -->
+  <view class='imgtype'>
+    <image src='/img/logo.png' style='height:480rpx;width:480rpx'></image>
+  </view>
 </view>
  
 <!-- 9个按钮  -->
@@ -26,7 +28,7 @@
   </navigator>
  
   <navigator class="class_nav"  bindtap='clickaboutus'>
-    <image src='/img/logo.png' style='height:180rpx;width:180rpx'></image>
+    <image src='/img/school.png' style='height:180rpx;width:180rpx'></image>
   </navigator>
  
   <navigator class="class_nav" bindtap='clickcalendar'>

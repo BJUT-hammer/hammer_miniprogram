@@ -12,7 +12,9 @@
     "pages/subscription/subscription",
     "pages/account/account",
     "pages/aboutus/aboutus",
-    "pages/classcheckend/classcheckend"
+    "pages/classcheckend/classcheckend",
+    "pages/nitificationscd/nitificationscd",
+    "pages/subscriptionscd/subscriptionscd"
   ],
   "window": {
     "backgroundTextStyle": "light",
