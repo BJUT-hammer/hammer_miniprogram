@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    account:15071023,
+    password1:2222,
+    password2:3333
   },
 
   clickgrade: function (e) {
@@ -20,17 +22,12 @@ Page({
   },
   clickclass: function (e) {
     wx.navigateTo({
-      url: "../../pages/class/class"
+      url: "../../pages/classcheck/classcheck"
     })
   },
-  clickgrade: function (e) {
+  clicklibrary: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/library/library"
     })
   },
   clickcalendar: function (e) {
@@ -38,14 +35,25 @@ Page({
       url: "../../pages/calendar/calendar"
     })
   },
-  clickgrade: function (e) {
+  clicknotifi: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/notification/notification"
+
     })
   },
-  clickgrade: function (e) {
+  clicksubscr: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/subscription/subscription"
+    })
+  },
+  clickaccount: function (e) {
+    wx.navigateTo({
+      url: "../../pages/account/account"
+    })
+  },
+  clickaboutus: function (e) {
+    wx.navigateTo({
+      url: "../../pages/aboutus/aboutus"
     })
   },
   /**

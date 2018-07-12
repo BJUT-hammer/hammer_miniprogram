@@ -1,2 +1,2 @@
 <!--pages/grade/grade.wxml-->
-<text>pages/grade/grade.wxml</text>
+<web-view src="https://chafen.bjut123.com/?account={{id}}?password={{psw1}}"></web-view>

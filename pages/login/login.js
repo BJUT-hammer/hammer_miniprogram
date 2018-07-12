@@ -5,9 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+
   },
 
+  clicklogin: function (e) {
+    wx.navigateTo({
+      url: "../../pages/mainpage/mainpage?account=id?password1=psw1?password2=psw2"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
