@@ -20,12 +20,12 @@
     <text>空教室查询</text>
   </navigator>
  
-  <navigator class="class_nav" bindtap='clicklibaray'>
+  <navigator class="class_nav" bindtap='clicklibrary'>
     <image src='/img/library.png'></image>
     <text>借书信息</text>
   </navigator>
  
-  <navigator class="class_nav">
+  <navigator class="class_nav"  bindtap='clickaboutus'>
     <image src='/img/logo.png' style='height:180rpx;width:180rpx'></image>
   </navigator>
  
@@ -48,5 +48,5 @@
     <image src='/img/account.png' bindtap='clickaccount'></image>
     <text>账号管理</text>
   </navigator>
- 
+
 </view>
