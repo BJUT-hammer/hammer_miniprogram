@@ -1,1 +1,42 @@
-/* pages/subscription/subscription.wxss */
+
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+}
+
+.form-desc {
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    font-size: 17px;
+}
+
+.form-data {
+    margin-left: 60rpx;
+    margin-right: 60rpx;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+    /* text-align: center; */
+    margin-bottom: 80rpx;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: #04be02;
+}
+
+.button-sp-area {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.pickertype {
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  /* text-align: center; */
+  margin-bottom: 80rpx;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #04be02;
+}/* pages/subscription/subscription.wxss */
