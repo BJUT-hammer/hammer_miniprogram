@@ -11,7 +11,8 @@
     "pages/notification/notification",
     "pages/subscription/subscription",
     "pages/account/account",
-    "pages/aboutus/aboutus"
+    "pages/aboutus/aboutus",
+    "pages/classcheckend/classcheckend"
   ],
   "window": {
     "backgroundTextStyle": "light",

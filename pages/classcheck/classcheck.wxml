@@ -1,3 +1,4 @@
+<form bindsubmit="submit" report-submit='true'>
 <view class="section">
   <view class="section__title">校区</view>
   <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}" class="pickertype">
@@ -30,5 +31,8 @@
 </view>
 
 <view class="button-sp-area">
-    <button type="primary" class="button" bindtap="clicklogin">查询</button>
+    <button type="primary" class="button" form-type="submit" bindtap="clickcheck">查询</button>
 </view>
+
+</form>
+
