@@ -36,6 +36,7 @@ Page({
   clicknotifi: function (e) {
     wx.navigateTo({
       url: "../../pages/notification/notification"
+
     })
   },
   clicksubscr: function (e) {
