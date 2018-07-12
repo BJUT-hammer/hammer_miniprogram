@@ -1,4 +1,4 @@
-// pages/libaray/libaray.js
+// pages/library/library.js
 Page({
 
   /**

@@ -1,0 +1,7 @@
+<!--pages/aboutus/aboutus.wxml-->
+  <view class="img"> 
+      <image src='/img/logo.png' style='height:360rpx;width:360rpx'></image> 
+  </view>
+  <view class="name">
+    <text>开发团队：西大望路东锤子研究所</text>
+  </view>
