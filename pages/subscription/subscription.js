@@ -4,22 +4,26 @@ Page({
     objectArray1: [
       {
         id: 0,
-        name: '教学通告'
+        name: '（空）'
       },
       {
         id: 1,
-        name: '院部处通知'
+        name: '教学通告'
       },
       {
         id: 2,
-        name: '公示公告'
+        name: '院部处通知'
       },
       {
         id: 3,
-        name: '院部处工作信息'
+        name: '公示公告'
       },
       {
         id: 4,
+        name: '院部处工作信息'
+      },
+      {
+        id: 5,
         name: '科技动态'
       }
     ],
@@ -69,14 +73,18 @@ Page({
     objectArray3: [
       {
         id: 0,
-        name: '教务处'
+        name: '（空）'
       },
       {
         id: 1,
-        name: '研究生院'
+        name: '教务处'
       },
       {
         id: 2,
+        name: '研究生院'
+      },
+      {
+        id: 3,
         name: '国际交流合作处'
       }
       // {

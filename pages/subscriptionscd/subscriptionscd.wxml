@@ -1,2 +1,22 @@
-<!--pages/subscriptionscd/subscriptionscd.wxml-->
-<text>pages/subscriptionscd/subscriptionscd.wxml</text>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">通知类型</view>
+    <view class="th">发布单位</view>
+    <view class="th ">关键字</view>
+    <view class="th "></view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+      <view class="td">删除</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+      <view class="td" bindtap= "clickdelete">删除</view>
+    </view>
+  </block>
+</view>
