@@ -33,9 +33,9 @@ Page({
       url: "../../pages/grade/grade"
     })
   },
-  clickgrade: function (e) {
+  clickcalendar: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/calendar/calendar"
     })
   },
   clickgrade: function (e) {
