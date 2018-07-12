@@ -1,12 +1,13 @@
 {
-    "pages": [
-        "pages/login/login",
-        "pages/index/index"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
-    }
+  "pages": [
+    "pages/mainpage/mainpage",
+    "pages/login/login",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "查个锤子",
+    "navigationBarTextStyle": "black"
+  }
 }

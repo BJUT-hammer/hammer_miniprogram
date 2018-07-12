@@ -1,0 +1,55 @@
+/* pages/主界面/mainpage.wxss */
+.class_view_carousel {
+  width: 100%;
+  height: 469rpx; 
+  /* 这个是为了解决图片底部的一小段空白  */
+  overflow: hidden;
+}
+.class_view_carousel image {
+  width: 100%;
+  height: 469rpx; 
+}
+ 
+ 
+.class_view_panel {
+  /* 水平排列, 每行3个, wrap  */
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+/* 设置nav 33.33%  */
+.class_nav {
+  width: 33.333%;
+  height: 200rpx;
+  
+  /* 必须添加这个  */
+  box-sizing: border-box;
+  
+  /* 设置里面的image 和 text 垂直居中  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  /* 文字必须使用像素  */
+  font-size: 16px;
+ 
+  /* 边框必须使用 rpx  */
+  /* 只给右 + 底边 添加边框  */
+  /* border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc; */
+}
+/* 最右边的 第3|6|9个不需要边框  
+   即: 3n个子元素
+*/
+.class_view_panel .class_nav:nth-child(3n) {
+  border-right: 0rpx none;
+}
+ 
+ 
+/* 设置图片宽高  */
+/* 第1个 必须使用类名  */
+.class_nav image {
+  width: 80rpx;
+  height: 80rpx;
+}
