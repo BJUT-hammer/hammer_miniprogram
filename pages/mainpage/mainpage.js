@@ -20,7 +20,7 @@ Page({
   },
   clickclass: function (e) {
     wx.navigateTo({
-      url: "../../pages/class/class"
+      url: "../../pages/classcheck/classcheck"
     })
   },
   clicklibrary: function (e) {
@@ -46,6 +46,11 @@ Page({
   clickaccount: function (e) {
     wx.navigateTo({
       url: "../../pages/account/account"
+    })
+  },
+  clickaboutus: function (e) {
+    wx.navigateTo({
+      url: "../../pages/aboutus/aboutus"
     })
   },
   /**
