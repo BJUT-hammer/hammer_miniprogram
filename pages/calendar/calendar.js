@@ -1,53 +1,13 @@
-// pages/主界面/mainpage.js
+// pages/clendar/clendar.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+  
   },
 
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
-  clickschedule: function (e) {
-    wx.navigateTo({
-      url: "../../pages/schedule/schedule"
-    })
-  },
-  clickclass: function (e) {
-    wx.navigateTo({
-      url: "../../pages/class/class"
-    })
-  },
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
-  clickgrade: function (e) {
-    wx.navigateTo({
-      url: "../../pages/grade/grade"
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

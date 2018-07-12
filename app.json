@@ -2,7 +2,15 @@
   "pages": [
     "pages/mainpage/mainpage",
     "pages/login/login",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/grade/grade",
+    "pages/schedule/schedule",
+    "pages/classcheck/classcheck",
+    "pages/libaray/libaray",
+    "pages/calendar/calendar",
+    "pages/notification/notification",
+    "pages/subscription/subscription",
+    "pages/account/account"
   ],
   "window": {
     "backgroundTextStyle": "light",
