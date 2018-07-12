@@ -20,7 +20,7 @@
     <text>空教室查询</text>
   </navigator>
  
-  <navigator class="class_nav" bindtap='clicklibaray'>
+  <navigator class="class_nav" bindtap='clicklibrary'>
     <image src='/img/library.png'></image>
     <text>借书信息</text>
   </navigator>

@@ -23,29 +23,29 @@ Page({
       url: "../../pages/class/class"
     })
   },
-  clickgrade: function (e) {
+  clicklibrary: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/library/library"
     })
   },
-  clickgrade: function (e) {
+  clickcalendar: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/calendar/calendar"
     })
   },
-  clickgrade: function (e) {
+  clicknotifi: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/notification/notification"
     })
   },
-  clickgrade: function (e) {
+  clicksubscr: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/subscription/subscription"
     })
   },
-  clickgrade: function (e) {
+  clickaccount: function (e) {
     wx.navigateTo({
-      url: "../../pages/grade/grade"
+      url: "../../pages/account/account"
     })
   },
   /**
