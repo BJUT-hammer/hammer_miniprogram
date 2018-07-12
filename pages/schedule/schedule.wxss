@@ -1,5 +1,4 @@
 /* pages/schedule/schedule.wxss */
-/*科室排班表  */
 .table{
   display: inline-flex;
   flex-direction: column;
@@ -23,8 +22,8 @@
 .th {
   display: flex;
   flex-direction: column;
-  width: 200rpx;
-  height: 90rpx;
+  width: 100rpx;
+  height: 40rpx;
   background: rgba(241, 252, 255, 1);
   border-right: 1rpx solid rgba(218, 217, 217, 1); 
   border-bottom: 1rpx solid rgba(218, 217, 217, 1); 
@@ -51,7 +50,7 @@
 .td {
   display: flex;
   flex-direction: column;
-  width: 200rpx;
+  width: 100rpx;
   /* height: 90rpx; */
   background: white;
   justify-content: center;

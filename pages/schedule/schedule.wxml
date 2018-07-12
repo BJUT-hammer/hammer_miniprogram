@@ -1,10 +1,8 @@
-<!--  科室排班表 -->
-
-<scroll-view scroll-x="true" class='scrollClass'>
+<!-- <scroll-view scroll-x="true" class='scrollClass'>
   <view class='table'>
     <view class='table_header'>
-      <view class="th" style='width:130rpx;background-color:white'>
-        <view class='centerclass cell_label'>课程</view>
+      <view class="th" style='width:50rpx;background-color:white'>
+        <view class='centerclass cell_label'> </view>
       </view>
       <block wx:for="{{dateArray}}">
         <view class='th'>
@@ -13,14 +11,16 @@
       </block>
     </view>
 
-
-
     <block wx:for="{{classArray}}">
       <view class='table_main'>
-        <!--上午下午晚上  -->
-        <view class='td' style='width:130rpx;background-color:white;'>
+        <view class='td' style='width:50rpx;background-color:white;'>
           <view class="cell_label centerclass">{{item.time_title}}</view>
         </view>
+        <block wx:for="{{dateArray}}">
+        <view class='td'>
+          <view class="cell_label centerclass" wx:if="{{}}">{{item.weekName}}</view>
+        </view>
+      </block>
 
         
 
@@ -28,4 +28,5 @@
       </view>
     </block>
   </view>
-</scroll-view>
+</scroll-view> -->
+<web-view src="https://hammer.devchen.cn/statics/fakeschedule.html"></web-view>     
