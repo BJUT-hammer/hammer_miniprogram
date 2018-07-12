@@ -11,6 +11,8 @@
     "pages/notification/notification",
     "pages/subscription/subscription",
     "pages/account/account",
+    "pages/account/jwpwd",
+    "pages/account/mhpwd",
     "pages/aboutus/aboutus"
   ],
   "window": {

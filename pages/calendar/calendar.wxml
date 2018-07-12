@@ -1,3 +1,2 @@
 <!--pages/clendar/clendar.wxml-->
-<text>pages/clendar/clendar.wxml</text>
-<image mode='widthFix' src='{{calendarsrc}}'></image>
+<image style='width:100%' mode='widthFix' src='{{calendarsrc}}'></image>
