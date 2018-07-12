@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  submit: function (e) {
+    console.log(e.detail.formId);
+    this.setData({ msg: e.detail.formId })
   }
 })
